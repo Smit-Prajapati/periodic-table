@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/elementsInfo.js"></script>
+    <script src="/scripts/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="links">
+                <div class="logo">Cybage <span class="yellow-color-font">Learnings</span></div>
+                <div class="nav-links" id="nav-bar">
+                    <a href="chemistry.html">Chemistry</a>
+                    <a href="#">Geography</a>
+                    <a href="contact-us.html">Contact Us</a>
+                </div>
+                <div class="hamburger-icon" id="hamburger-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+                            d="M80 160h352M80 256h352M80 352h352" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+    <main>
+        <div class="container-for-periodic-table">
+            <div class="chemistry-heading">
+                <h1>Periodic Table</h1>
+                <div class="searchbar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-search">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.3-4.3" />
+                    </svg>
+                    <input type="text" id="search-bar" placeholder="Search Element" />
+                </div>
+            </div>
+            <div class="periodic-table-grid-container" id="periodic-table-grid-container">
+                <!-- <div class="element">
+                        <div class="element-number">1</div>
+                        <div class="element-symbol">He</div>
+                        <div class="element-name">Helium</div>
+                        <div class="element-atomic-mass">12.525</div>
+                    </div> -->
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+    <!-- <a href="pages/element-details.html?element_name=helium">link</a> -->
+</body>
+
+</html>

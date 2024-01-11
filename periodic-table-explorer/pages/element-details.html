@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <script src="/scripts/elementsInfo.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+</head>
+
+<body>
+    <div class="element-info" id="element-info">
+        <div class="div1">H</div>
+        <div class="div2">
+            <div class="title">smit</div>
+            <div class="info">smit</div>
+        </div>
+        <div class="div3">
+            <div class="div">
+                <div class="title">Discovered by</div>
+                <div class="info">smit</div>
+            </div>
+            <div class="div">
+                <div class="title">Named by</div>
+                <div class="info">smit</div>
+            </div>
+        </div>
+        <div class="div4">smit</div>
+        <div class="div5">
+
+            <div class="title">Atomic Mass</div>
+            <div class="info">x amu</div>
+        </div>
+        <div class="div6">
+            <div class="title">Density</div>
+            <div class="info">x kg/m3</div>
+        </div>
+        <div class="div7">
+            <div class="model">
+                <model-viewer
+                    alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+                    src="${element.bohr_model_3d}" ar environment-image="${element.bohr_model_image}"
+                    shadow-intensity="1" camera-controls touch-action="pan-y" camera-orbit="-45deg 30deg 1.3m"
+                    autoplay></model-viewer>
+            </div>
+        </div>
+        <div class="div8">
+            <img src="${element.image.url}" alt="img">
+        </div>
+        <div class="div9">
+            <p>sfsaf</p>
+        </div>
+        <div class="div10">
+            <div class="title">Electron configuration</div>
+            <div class="info"> jsldkafjs;d</div>
+        </div>
+        <div class="div11">
+            <a href="">Source</a>
+        </div>
+
+    </div>
+</body>
+
+</html>

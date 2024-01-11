@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/jquery-3.7.1.min.js"></script>
+    <script src="/scripts/contact-us.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="links">
+                <div class="logo">Cybage <span class="yellow-color-font">Learnings</span></div>
+                <div class="nav-links" id="nav-bar">
+                    <a href="chemistry.html">Chemistry</a>
+                    <a href="#">Geography</a>
+                    <a href="contact-us.html">Contact Us</a>
+                </div>
+                <div class="hamburger-icon" id="hamburger-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+                            d="M80 160h352M80 256h352M80 352h352" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    
+    <div class="full-height-container">
+        <div class="form-container">
+            <div class="empty-div">
+                <div class="side-div">
+                    <img src="/assets/images/contactusimage.jpg" alt="">
+                </div>
+            </div>
+            <div class="form" id="contact-us-form">
+                <h1>Contact Us</h1>
+                <form >
+                    <input type="text" placeholder="Name" id="name">
+                    <input type="email" placeholder="Email" id="email">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" id="message"></textarea>
+                    <div class="button-container">
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Clear">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
